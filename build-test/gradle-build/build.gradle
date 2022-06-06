@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+jar {
+    baseName = 'sort-build'
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
